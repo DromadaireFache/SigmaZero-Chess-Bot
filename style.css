@@ -1,0 +1,23 @@
+/* Set the body element to flex and arrange content vertically */
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+/* Select the canvas element and apply styles */
+canvas {
+  border: 1px solid black;
+}
+
+/* Select the text element and apply  */
+p {
+  margin-top: 5px;
+}
+
+button {
+  user-select: none; /* Prevents text selection */
+}
